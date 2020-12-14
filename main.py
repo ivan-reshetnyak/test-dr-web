@@ -11,6 +11,7 @@ def fibonacci(num: int):
         prev = temp
 
 
+# https://github.com/ivan-reshetnyak/test-dr-web
 # Generator function
 def fibonacci_even(num: int):
     if num < 1:
@@ -34,5 +35,7 @@ print(fibonacci_even(1))
 print([_ for _ in fibonacci_even(1)])
 print(fibonacci_even(2))
 print([_ for _ in fibonacci_even(2)])
+print(fibonacci_even(4))
+print([_ for _ in fibonacci_even(4)])
 print(fibonacci_even(10))
 print([_ for _ in fibonacci_even(10)])
